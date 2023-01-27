@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="include\stdafx.hpp">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\syscalls\undocumented.hpp">
+      <Filter>syscalls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\syscalls\syscalls.hpp">
+      <Filter>syscalls</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\stdafx.cpp">
+      <Filter>stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="source\syscalls\syscalls.cpp">
+      <Filter>syscalls</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{e49c0cc6-42bd-4628-8c3f-7698580b0714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="syscalls">
+      <UniqueIdentifier>{30a9afcc-501e-4bd9-91e8-63cf10d834fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
