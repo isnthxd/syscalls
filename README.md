@@ -1,6 +1,8 @@
 # syscalls
 only x64 is supported.
 
+## Usage
+
 ```cpp
 #include "stdafx.hpp"
 #include "syscalls/syscalls.hpp"
